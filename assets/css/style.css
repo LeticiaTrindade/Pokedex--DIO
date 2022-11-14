@@ -1,0 +1,95 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    color: gray;
+}
+
+h5{
+    text-align: center;
+    color: gray;
+}
+
+a{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: gray;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+}
+
+#icon{
+    margin-right: 0.2rem; 
+    margin-top: 0.1rem;
+}
+
+a:hover{
+    text-decoration:none;
+	color:#000;
+	background:rgb(249, 195, 240);
+	}
+
+body{
+    background: rgb(249,181,252);
+    background: linear-gradient(90deg, rgba(249,181,252,1) 0%, rgba(171,240,254,1) 100%);
+}
+
+.content{
+    width: 100vw;
+    height: auto;
+    padding: 1rem;
+    margin:  1rem auto;
+    background-color: white;
+    text-align: center;
+    
+}
+
+.content h1{
+    margin: 0;
+}
+
+@media screen and (min-width: 992px) {
+    .content{
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+    
+}
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+.pagination button{
+    padding: .25rem 1.5rem;
+    
+    font-size: 2.7rem;
+    color:white;
+    background-color: #6c79db;
+    border: none;
+    border-radius: 5rem ;
+    transition: background 1s;
+}
+
+.pagination button:hover, button:focus{
+    
+    background-color: #db6cc7;
+   
+}
+
+#rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
